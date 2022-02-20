@@ -1,12 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Jeel Patel &mdash; A Passionate 20 y/o Frontend Developer</title>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Jeel Patel is a 20 y/o Frontend Web Developer who is inclined towards Javascript and React JS, who also have made several projects which can be sought on his Github profile. Other than his passion(coding), you will see him either reading self-help books or vibing to music!"
+    />
+    <meta
+      property="og:title"
+      content="Jeel Patel &mdash; A Passionate 20 y/o Frontend Developer!"
+    />
+    <meta
+      property="og:description"
+      content="Jeel Patel is a 20 y/o Frontend Web Developer who is inclined towards Javascript and React JS, who also have made several projects which can be sought on his Github profile. Other than his passion(coding), you will see him either reading self-help books or vibing to music!"
+    />
+    <meta property="og:image" content="/" />
+    <meta property="og:url" content="https://jeelpatel.tech" />
+    <meta
+      property="og:site_name"
+      content="Jeel Patel &mdash; A Passionate 20 y/o Frontend Developer!"
+    />
+    <link rel="canonical" href="https://jeelpatel.tech/" />
+    <!--FAVICON-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <!--BOOTSTRAP CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--TAILWIND CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/components.min.css"
+    />
+    <!--IMAGE HOVER CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css"
+    />
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=0.3, maximum-scale=1"
+    />
   </head>
+
   <body>
-    <h1>test!</h1>
+    <main id="about">
+      <header class="masthead text-white text-center vh-100">
+        <div class="container d-flex align-items-center flex-column">
+          <img
+            class="masthead-avatar mb-2 rounded-circle img-parent"
+            src="img/jeel-patel-portrait.png"
+            alt="jeelpatel-portrait"
+          />
+          <h1>Hi, I am <span>Jeel</span>.</h1>
+          <h2>
+            A <span>passionate</span> 20 y/o <span>Frontend Developer</span>!
+          </h2>
+        </div>
+      </header>
+      <nav class="d-flex flex-row justify-content-around" id="navbar">
+        <a id="nabout" href="#skills">About</a>
+        <a id="nwork" href="#work">Work</a>
+        <a id="nskills" href="#skills">Skills</a>
+        <a id="neducation" href="#education">Education</a>
+        <a id="ncertifications" href="#certifications">Certifications</a>
+        <a id="ncontact" href="#contact">Contact</a>
+        <a id="nsocial" href="#social">Social</a>
+      </nav>
+      <section class="container-fluid" id="work">
+        <h1 class="display-4">WORK</h1>
+        <div class="row d-flex justify-content-around">
+          <div>
+            <a href="https://github.com/jeelpatel17/cmd-quiz-app">
+              <figure
+                class="imghvr-fade img-parent"
+                style="background-color: #212221"
+              >
+                <img src="img/cmd-quiz-app.png" alt="cmd-quiz-app" />
+                <figcaption style="background-color: #212221">
+                  <h4>Command Line Quiz App</h4>
+                  <p>Made with Node JS</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+
+          <div>
+            <a href="https://gymbuddy7.netlify.app">
+              <figure
+                class="imghvr-fade img-parent"
+                style="background-color: #212221"
+              >
+                <img src="img/gym-buddy.png" alt="gym-workout-webapp" />
+                <figcaption style="background-color: #212221">
+                  <h4>Gym Workout PWA</h4>
+                  <p>Made with JSON Database</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+
+          <div>
+            <a href="https://metflix.netlify.app">
+              <figure
+                class="imghvr-fade img-parent"
+                style="background-color: #212221"
+              >
+                <img src="img/streamingsite.png" alt="business-website" />
+                <figcaption style="background-color: #212221">
+                  <h4>Movie Streaming Site</h4>
+                  <p>Landing Page</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+
+          <div>
+            <a href="https://techcity.vercel.app">
+              <figure
+                class="imghvr-fade img-parent"
+                style="background-color: #212221"
+              >
+                <img src="img/techcity-blog.png" alt="gymnasium-website" />
+                <figcaption style="background-color: #212221">
+                  <h4>Blog</h4>
+                  <p>Made with Next JS, API & Markup</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+
+          <div>
+            <a href="https://howstheweather7.netlify.app">
+              <figure
+                class="imghvr-fade img-parent"
+                style="background-color: #212221"
+              >
+                <img
+                  src="img/hows-the-weather.png"
+                  width="100%"
+                  alt="tribute-page"
+                />
+                <figcaption style="background-color: #212221">
+                  <h4>Weather App</h4>
+                  <p>Made with Vanilla JS & WeatherAPI</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+
+          <div>
+            <a href="https://whatsthenews.netlify.app">
+              <figure
+                class="imghvr-fade img-parent"
+                style="background-color: #212221"
+              >
+                <img src="img/whats-the-news.png" alt="product-landing-page" />
+                <figcaption style="background-color: #212221">
+                  <h4>News App</h4>
+                  <p>Made with Vanilla JS & G-News API</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <h3 style="width: 70vw; font-family: monospace; font-size: 1.2rem">
+            Update: Hey there visitor! I'm glad you're on my portfolio! But, I
+            apologise for the outdated design as I designed it back in 2019 and
+            it hasn't been updated since, But I'm currently working on my
+            Portfolio v2.0. It's going to be MINDBLOWING🤩, stay tuned, thanks!
+          </h3>
+        </div>
+      </section>
+
+      <div class="container _table" id="skills">
+        <h1 class="display-4">Skills</h1>
+        <table class="table table-responsive table-striped table-dark mx-auto">
+          <thead>
+            <tr>
+              <th scope="col">HTML</th>
+              <th scope="col">&#9733; &#9733; &#9733; &#9733; &#9733;</th>
+              <th scope="col">CSS</th>
+              <th scope="col">&#9733; &#9733; &#9733; &#9733; &#9733;</th>
+            </tr>
+            <tr>
+              <th scope="row">Bootstrap</th>
+              <th>&#9733; &#9733; &#9733; &#9733; &#9733;</th>
+              <th>Javascript</th>
+              <th>&#9733; &#9733; &#9733; &#9733;</th>
+            </tr>
+            <tr>
+              <th scope="row">React JS</th>
+              <th>&#9733; &#9733;</th>
+              <th>C Language</th>
+              <th>&#9733; &#9733; &#9733;</th>
+            </tr>
+            <tr>
+              <th scope="row">Github</th>
+              <th>&#9733; &#9733; &#9733; &#9733;</th>
+              <th>VS Code</th>
+              <th>&#9733; &#9733; &#9733; &#9733; &#9733;</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <!---->
+      <div
+        id="education"
+        class="flex flex-col justify-center mx-auto container _education"
+      >
+        <h1 class="display-4">Education</h1>
+        <div class="flex flex-row justify-center text-center _education1">
+          <div class="flex flex-row justify-center items-center px-5">
+            <i
+              class="fa fa-graduation-cap fa-10x align-items-center justify-content-center p-4 w-56 h-56 rounded-full"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="flex flex-col justify-center rounded">
+            <div class="text-xs uppercase font-bold">2018-2021</div>
+            <div class="text-xl font-bold">
+              High School Diploma - E.C. Engg.<br />|<br />B & B Institute of
+              Technology
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-row justify-center text-center _education1">
+          <div class="flex flex-row justify-center items-center px-5">
+            <img
+              class="w-56 h-56 border-none float-right p-3"
+              style="filter: invert(100%); opacity: 0.9"
+              alt="elementary-school-illustration"
+              src="img/university-illustration.png"
+            />
+          </div>
+          <div class="flex flex-col justify-center rounded pl-3">
+            <div class="text-xs uppercase font-bold">2008-2018</div>
+            <div class="text-xl font-bold">
+              Elementary School<br />|<br />S.P.S English Medium School
+            </div>
+          </div>
+        </div>
+        <h3 align="center">One more coming soon🤩, Stay tuned!</h3>
+      </div>
+
+      <div
+        id="certifications"
+        class="flex flex-col justify-center m-auto _certifications"
+      >
+        <h1 class="text-center display-4">Certifications</h1>
+        <div
+          class="flex flex-row justify-center mx-auto text-center _fcc _certifications1"
+        >
+          <div class="flex flex-row justify-center items-center _fccp px-5">
+            <i
+              class="fab fa-free-code-camp fa-10x _fcci align-items-center justify-content-center p-5 mr-5 xs:p-3 w-56 h-56 rounded-full"
+            ></i>
+          </div>
+          <div class="flex flex-col justify-center rounded ml-4">
+            <div class="text-xs uppercase font-bold _fccText">
+              <a href="https://freecodecamp.org">freeCodeCamp.org</a>
+            </div>
+            <div class="grad text-xl font-bold">Basic Web Development</div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-row justify-center text-center _certifications1 _umich"
+        >
+          <div class="flex flex-row justify-center items-center lg:px-5">
+            <img
+              class="w-57 h-56 p-5 xl:p-5 md:p-5 border-none"
+              alt="university-of-michigan-logo"
+              src="img/umich-logo.png"
+            />
+          </div>
+          <div class="flex flex-col justify-center rounded _umichText">
+            <div class="text-xs uppercase font-bold">
+              <a href="https://www.si.umich.edu/">University of Michigan</a>
+            </div>
+            <div class="grad text-xl font-bold">
+              Web Design For Everybody<br />Specialization
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-row justify-center text-center _uofl _certifications1"
+        >
+          <div class="flex flex-row justify-center items-center px-5">
+            <img
+              class="w-56 h-60 p-5 xl:p-5 md:p-5 border-none _uofl_img"
+              alt="university-of-london-logo"
+              src="img/UofL-Logo.png"
+            />
+          </div>
+          <div class="flex flex-col justify-center rounded">
+            <div class="text-xs uppercase font-bold">
+              <a href="https://www.gold.ac.uk/">University of London</a>
+            </div>
+            <div class="grad text-xl font-bold">Responsive Website Basics</div>
+          </div>
+        </div>
+      </div>
+
+      <!--CONTACT ME-->
+      <form
+        action="https://formspree.io/maypkeen"
+        method="POST"
+        class="_form container"
+        id="contact"
+      >
+        <h1 class="display-4">Say Hi!</h1>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            placeholder="Howard Wolowitz"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            name="_replyto"
+            placeholder="howardwolowitz@mit.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            class="form-control"
+            name="message"
+            rows="3"
+            placeholder="Elaborate a concept/problem, or just say Hi! I'd be more than happy to assist you!"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group submit">
+          <button type="submit" value="Send" class="form-control">
+            Submit
+          </button>
+        </div>
+      </form>
+      <section class="containment">
+        <h1 class="display-4">Let's Connect!</h1>
+        <div
+          class="d-flex row mx-0 align-items-center justify-content-center social flex-sm-wrap"
+        >
+          <a
+            href="https://twitter.com/jeelpatel101"
+            class="fab fa-twitter fa-2x _twitter"
+            target="_blank"
+          ></a>
+
+          <a
+            href="https://linkedin.com/in/jeelpatel101"
+            class="fab fa-linkedin fa-2x"
+            target="_blank"
+          ></a>
+
+          <a
+            href="https://github.com/jeelpatel17"
+            class="fab fa-github fa-2x _github"
+            target="_blank"
+          ></a>
+
+          <a
+            href="https://instagram.com/7eelpatel"
+            class="fab fa-instagram fa-2x _instagram"
+            target="_blank"
+          ></a>
+
+          <a
+            href="mailto:jeelpateldev@gmail.com"
+            class="fa fa-envelope-o fa-2x _email"
+            target="_top"
+          ></a>
+        </div>
+      </section>
+      <footer id="social">
+        <span>&copy; 2020 &mdash; 2022 Jeel Patel</span>
+        <a href="#about"
+          >Jump to Top&nbsp;<i class="fa fa-chevron-circle-up"></i
+        ></a>
+      </footer>
+    </main>
+    <!--ICON PACK-->
+    <script
+      src="https://kit.fontawesome.com/e924019f26.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--CUSTOM JS-->
+    <script src="js/index.js"></script>
   </body>
 </html>
